@@ -50,22 +50,41 @@
 #     print(spam)
 #     spam += 1
 
-# print("loop completed", spam)    
+# print("loop completed", spam)
 
 
 # while True:
 #     name = input("Enter your name: ")
 #     if name == "moiz":
 #         break
-# print("Thank You!")    
+# print("Thank You!")
 
-while True:
-    name = input("Who are you? ")
-    if(name != "ashhad"):
-        continue
-    print(f"Hello {name}. What is the password? ('It is a pin.')")
-    password = int(input("Enter passowrd: "))
-    if(password == 22):
-        break
-        
-print("Access Granted!")
+# while True:
+#     name = input("Who are you? ")
+#     if(name != "ashhad"):
+#         continue
+#     print(f"Hello {name}. What is the password? ('It is a pin.')")
+#     password = int(input("Enter passowrd: "))
+#     if(password == 22):
+#         break
+
+# print("Access Granted!")
+
+
+# print("My name is")
+# for i in range(1,6):
+#     print(f"Jimmy five times {i}")
+
+
+# for i in range(2, 10, 2):
+#     print(i)
+
+
+# for i in range(10, 0, -1):
+#     print(i)
+
+
+# import random
+
+# for i in range(5):
+#     print(random.randint(5,10))
