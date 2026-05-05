@@ -43,3 +43,29 @@
 #     print("Hello", name)
 # else:
 #     print("Hello, stranger!")
+
+# spam = 0
+
+# while spam < 5:
+#     print(spam)
+#     spam += 1
+
+# print("loop completed", spam)    
+
+
+# while True:
+#     name = input("Enter your name: ")
+#     if name == "moiz":
+#         break
+# print("Thank You!")    
+
+while True:
+    name = input("Who are you? ")
+    if(name != "ashhad"):
+        continue
+    print(f"Hello {name}. What is the password? ('It is a pin.')")
+    password = int(input("Enter passowrd: "))
+    if(password == 22):
+        break
+        
+print("Access Granted!")
